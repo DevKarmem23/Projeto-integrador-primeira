@@ -2,11 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Listagem de Pessoas</title>
+  <title>Listagem</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lista de Pessoas</h1>
+  <h1>Lista de pessôas cadastrada</h1>
 
   <table border="1">
     <thead>
@@ -15,16 +15,16 @@
         <th>CPF</th>
         <th>Email</th>
         <th>Telefone</th>
-        <th>Data de Nascimento</th>
+        <th>Data</th>
         <th>Ações</th>
       </tr>
     </thead>
-    <tbody id="tabela-pessoas">
-      <!-- Pessoas serão inseridas aqui com JavaScript -->
-    </tbody>
+    <tbody id="tabela-pessoas"></tbody>
   </table>
 
-  <p><a href="cadastro.html">Cadastrar nova pessoa</a></p>
+  <button onclick="window.location.href='cadastro.html'">Cadastrar nova</button>
+  <button onclick="window.location.href='index.html'">Sair</button>
+
   <script src="script.js"></script>
 </body>
 </html>
