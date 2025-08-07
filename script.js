@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Login
+
   const formLogin = document.getElementById("form-login");
   if (formLogin) {
     formLogin.addEventListener("submit", function (e) {
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Cadastro
+  
   const formCadastro = document.getElementById("form-cadastro");
   if (formCadastro) {
     formCadastro.addEventListener("submit", function (e) {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Listagem
+  
   const tabela = document.getElementById("tabela-pessoas");
   if (tabela) {
     const pessoas = JSON.parse(localStorage.getItem("pessoas")) || [];
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Editar
+  
   const formEditar = document.getElementById("form-editar");
   if (formEditar) {
     const urlParams = new URLSearchParams(window.location.search);
